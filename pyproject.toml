@@ -1,0 +1,20 @@
+[project]
+name = "ontology-learning-eval"
+version = "0.1.0"
+description = "Ontology Learning Experiments"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-community>=0.3.25",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.1.5",
+    "langchain[anthropic,fireworks,groq,openai]>=0.3.25",
+    "langgraph>=0.4.8",
+    "pandas>=2.3.0",
+    "pydantic>=2.11.7",
+    "rich>=14.0.0",
+    "ruff>=0.9.10",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+]
